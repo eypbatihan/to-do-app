@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 3px solid;
+    margin-left: 25%;
+   
+    
+}
+.container{
+    background-color: bisque;
+
+}
+
+.todo{
+    background-color: rgb(124, 218, 221);
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+#text{
+    margin: 15px 0;
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 40px;
+    width: auto;
+    background-color: gainsboro;
+    border: none;
+
+}
+#submit{
+    line-height: 39px;
+    width: 30px;
+    background-color: gainsboro;
+    border: none;
+    padding: 3px 3px 0;
+    justify-content: baseline;
+}
+.fa-check-circle:hover{
+    color: palevioletred;
+   
+}
+.fa-trash:hover{
+    color: red;
+
+
+}
