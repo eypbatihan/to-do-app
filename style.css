@@ -1,57 +1,75 @@
 *{
     margin: 0;
-    padding: 0;
-}
-body{ 
-    text-align: center;
-    width: 50%;
-    height: 100%;
-    border: 3px solid;
-    margin-left: 25%;
-   
+    padding: 10px;
     
+  
+     
+   
+  
+   
 }
 .container{
-    background-color: bisque;
+    width: 400px;
+    height: 450px;
+    background-image: url(b.jpg);
+    background-size: cover;
+    text-align: center;
+    border: 3px solid chartreuse;
+    border-radius: 15px;
+    outline: 2px solid brown;
+    color: rgb(66, 16, 16);
+  
+ 
 
 }
-
-.todo{
-    background-color: rgb(124, 218, 221);
-    margin: 10px;
-    height: 30px;
+#head{
+    color: rgb(66, 16, 16);
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.add{
+    border: 2px solid brown;
+    width: 10px;
+    height: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     border-radius: 10px;
-    text-align: center;
+    background-color: rgb(137, 228, 47);
+
+}
+.todo{
+    background-color: chartreuse;
     list-style: none;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    font-size: 24px;
+    margin: 5px;
+    padding: 3px;
+    overflow:auto;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.todo:hover{
+    transform: scale(1.05);
+
+}
+.list{
+    align-items: center;
+    justify-content: center;
+
+  
 }
 #text{
-    margin: 15px 0;
-    padding-left: 15px;
-    font-size: 20px;
-    line-height: 40px;
-    width: auto;
-    background-color: gainsboro;
-    border: none;
-
-}
-#submit{
-    line-height: 39px;
-    width: 30px;
-    background-color: gainsboro;
-    border: none;
-    padding: 3px 3px 0;
-    justify-content: baseline;
-}
-.fa-check-circle:hover{
-    color: palevioletred;
-   
-}
-.fa-trash:hover{
-    color: red;
-
-
+    border: 2px lawngreen solid;
+    border-radius: 15px;
+    width: 90%;
+    outline: 2px solid brown;
 }
